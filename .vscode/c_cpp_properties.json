@@ -10,6 +10,7 @@
             "includePath": [
                 "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/include",
                 "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/src",
+                "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/.pio/libdeps/m5stack-atoms3/UNIT_HBRIDGE/src",
                 "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/.pio/libdeps/m5stack-atoms3/M5AtomS3/src",
                 "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/.pio/libdeps/m5stack-atoms3/FastLED/src",
                 "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/.pio/libdeps/m5stack-atoms3/M5Unified/src",
@@ -247,6 +248,7 @@
                 "path": [
                     "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/include",
                     "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/src",
+                    "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/.pio/libdeps/m5stack-atoms3/UNIT_HBRIDGE/src",
                     "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/.pio/libdeps/m5stack-atoms3/M5AtomS3/src",
                     "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/.pio/libdeps/m5stack-atoms3/FastLED/src",
                     "c:/Users/ole/OneDrive/Documents/PlatformIO/Projects/ATOMS3-Test2/.pio/libdeps/m5stack-atoms3/M5Unified/src",

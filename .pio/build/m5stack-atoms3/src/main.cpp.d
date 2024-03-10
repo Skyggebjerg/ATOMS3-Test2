@@ -320,4 +320,6 @@
  .pio/libdeps/m5stack-atoms3/FastLED/src/fastspi.h \
  .pio/libdeps/m5stack-atoms3/FastLED/src/fastspi_bitbang.h \
  .pio/libdeps/m5stack-atoms3/FastLED/src/chipsets.h \
- .pio/libdeps/m5stack-atoms3/FastLED/src/five_bit_hd_gamma.h
+ .pio/libdeps/m5stack-atoms3/FastLED/src/five_bit_hd_gamma.h \
+ .pio/libdeps/m5stack-atoms3/UNIT_HBRIDGE/src/UNIT_HBRIDGE.h \
+ C:/Users/ole/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h
