@@ -1,13 +1,6 @@
 #include <Arduino.h>
 
 /**
- * @file button.ino
- * @author SeanKwok (shaoxiang@m5stack.com)
- * @brief M5AtomS3 Button Test
- * @version 0.1
- * @date 2023-12-13
- *
- *
  * @Hardwares: M5AtomS3
  * @Platform Version: Arduino M5Stack Board Manager v2.0.9
  * @Dependent Library:
@@ -17,6 +10,8 @@
  */
 
 #include "M5AtomS3.h"
+
+int button_step = 0;
 
 void setup() {
     auto cfg = M5.config();
@@ -37,12 +32,15 @@ void loop() {
         AtomS3.Display.clear();
         AtomS3.Display.drawString("Pressed", AtomS3.Display.width() / 2,
                                   AtomS3.Display.height() / 2);
+        button_step = button_step + 1;
+        if (button_step == 5) button_step = 0;                        
         Serial.println("Pressed");
     }
     if (AtomS3.BtnA.wasReleased()) {
         AtomS3.Display.clear();
-        AtomS3.Display.drawString("Released", AtomS3.Display.width() / 2,
-                                  AtomS3.Display.height() / 2);
+        //AtomS3.Display.drawString("Released", AtomS3.Display.width() / 2, AtomS3.Display.height() / 2);
+        AtomS3.Display.drawString(String(button_step,DEC), AtomS3.Display.width() / 2,
+                                  AtomS3.Display.height() / 2);                                  
         Serial.println("Released");
     }
 }
